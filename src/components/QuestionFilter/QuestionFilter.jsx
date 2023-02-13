@@ -255,7 +255,6 @@ export const QuestionFilter = ({
         </IconButton>
         <IconButton
           onClick={() => setIsOpen(true)}
-          startIcon={<EditIcon />}
           color="primary"
           sx={{ display: { xs: "inherit", md: "none" } }}
         >
